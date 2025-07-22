@@ -2,7 +2,7 @@
 git+https://github.com/openai/whisper.git
 transformers
 moviepy
-torch==2.5.0+cpu
+torch==2.7.0+cpu
 torchvision==0.22.0+cpu
-torchaudio==2.6.0+cpu  # Updated to a version that is available
+torchaudio  # Let pip choose the compatible version
 --extra-index-url https://download.pytorch.org/whl/cpu
